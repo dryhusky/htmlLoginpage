@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="https://server.ai-school.com" method="POST">
+        <input name="userid" placeholder="아이디를 입력하세요" type="text"/>
+        <input 
+            name="userpw"
+            placeholder="비밀번호를 입력하세요"
+            type="password"
+        />
+        <label for="passQ">비밀번호 질문</label>
+        <select name="passwordQ">
+            <option value="1학년때 다닌 초등학교 이름">1학년때 다닌 초등학교 이름</option>
+            <option value="태어난 고향">태어난 고향</option>
+            <option value="외할아버지 이름">외할아버지 이름</option>
+            id="passQ">
+        </select>
+
+        <label for="passA">질문의 답변</label>
+        <input 
+            name='passA'
+            placeholder="입력해주세요"
+            type="text"
+            id="passA">
+    </form>
+    <br/> 
+    <div>자기소개서 작성</div>
+    <textarea name="content" id="" cols="30" rows="10"></textarea>>
+    <button name="전송" type="submit">전송하기</button>
+    
+</body>
+</html>
